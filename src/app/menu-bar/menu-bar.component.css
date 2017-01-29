@@ -1,0 +1,45 @@
+* {
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+md-toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 10px;
+    opacity: 0.3;
+}
+
+.title {
+    font-family: 'Pacifico', sans-serif !important;
+    font-size: 100%;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.navigate {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+span {
+    font-size: 10pt;
+    padding: 0 3px;
+}
+
+md-icon {
+    font-family: 'Material Icons';
+    padding: 0 3px;
+}
+
+button {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+

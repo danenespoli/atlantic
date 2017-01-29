@@ -8,12 +8,14 @@ import 'hammerjs';
 import { AppComponent } from './app.component';
 import { BackgroundComponent } from './background/background.component';
 import { LoginComponent } from './login/login.component';
+import { MenuBarComponent } from './menu-bar/menu-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BackgroundComponent,
-    LoginComponent
+    LoginComponent,
+    MenuBarComponent
   ],
   imports: [
     BrowserModule,
